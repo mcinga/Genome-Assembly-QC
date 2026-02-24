@@ -19,4 +19,4 @@ reads/
 ## Running the pipeline
 
 ## Notes
-- Each haplotype is processed independently
+
