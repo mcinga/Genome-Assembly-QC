@@ -1,8 +1,8 @@
-#Genome Assembly QC Pipeline
-##Requirements
+# Genome Assembly QC Pipeline
+## Requirements
 - Nextflow
 - Singularity
-##Input structure
+## Input structure
 ```
 assemblies/
 |-assembly.hap1.fasta
@@ -11,7 +11,7 @@ assemblies/
 reads/
 |-read.fastq.gz
 ```
-##Running the pipeline
+## Running the pipeline
 
-##Notes
+## Notes
 - Each haplotype is processed independently
