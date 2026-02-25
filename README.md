@@ -3,7 +3,7 @@ This nexflow pipeline is to assess the quality of de novo genome assemblies for 
 However, it can be modified to cater for other species. The quality of the assemblies is assessed by measuring continuity, correctness and completness.
 Continuity is assessed using the latest version of gfastats, correctness (QV value) is asssed using Merqury which is  km-er based technique. Completness is futhermore assesed using BUSCO.
 
-Each haplotye is assessed independetly.    
+Each haplotype is assessed independently.    
 ## Requirements
 - Nextflow
 - Singularity
@@ -18,10 +18,10 @@ reads/
 |-read.fastq.gz
 ```
 ## Running the pipeline
-Create a bash script:
+Create a bash script and add the following:
 ```
-module load nextflow/25.10.0 
-module load singularity/4.2.2 
+module load nextflow
+module load singularity 
 
 nextflow run quality_control.nf -profile slurm 
 
