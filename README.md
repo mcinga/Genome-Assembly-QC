@@ -18,6 +18,13 @@ reads/
 |-read.fastq.gz
 ```
 ## Running the pipeline
+Create a bash script:
+```
+module load nextflow/25.10.0 
+module load singularity/4.2.2 
 
+nextflow run quality_control.nf -profile slurm 
+
+```
 ## Notes
 
