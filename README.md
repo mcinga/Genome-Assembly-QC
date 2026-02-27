@@ -1,9 +1,10 @@
 # Genome Assembly QC Pipeline
-This nexflow pipeline is to assess the quality of de novo genome assemblies for human genome assembly, created from long read sequencing data. This includes PacBio HiFi, Oxford nanopore (ONT) ultra-lond data and Omni-C/HiC or trio data.
-However, it can be modified to cater for other species. The quality of the assemblies is assessed by measuring continuity, correctness and completness.
-Continuity is assessed using the latest version of gfastats, correctness (QV value) is asssed using Merqury which is  km-er based technique. Completness is futhermore assesed using BUSCO.
+This Nextflow pipeline performs comprehensive quality assessment of multiple de novo genome assemblies generated from long‑read sequencing data. It supports assemblies built from PacBio HiFi, Oxford Nanopore (ONT) ultra‑long reads, and Omni‑C/Hi‑C or trio‑based strategies.
+Although designed for human genomes, the workflow can be adapted to other species with minimal changes.Assembly quality is evaluated across three key metrics:
+- Continuity, which is assessed with the latest version of gfastats, providing metrics such as N50.
+- Correctness, which is evaluated using Merqury, quantifying base-level accuracy.
+- Completeness, which is evaluated with BUSCO, which identifies conserved single‑copy orthologs to estimate gene‑level completeness.
 
-Each haplotype is assessed independently.    
 ## Requirements
 - Nextflow
 - Singularity
