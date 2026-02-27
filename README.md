@@ -23,7 +23,7 @@ Create a bash script and add the following:
 module load nextflow
 module load singularity 
 
-nextflow run quality_control.nf -profile slurm 
+nextflow run main.nf -profile slurm 
 
 ```
 ## Notes
