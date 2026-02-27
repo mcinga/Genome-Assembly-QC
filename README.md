@@ -12,8 +12,8 @@ Ensure that all the assemblies are in one directory, and the reads are in one di
 Both assemblies an reads should follow the format below and have a sample ID as an identifier as seen below.
 ```
 assemblies/
-|-KRM1.hap1.fasta
-|-KRM2.hap2.fasta
+|-KRM.hap1.fasta
+|-KRM.hap2.fasta
 
 reads/
 |-KRM.fastq.gz
