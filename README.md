@@ -9,13 +9,14 @@ Each haplotype is assessed independently.
 - Singularity
 ## Input structure
 Ensure that all the assemblies are in one directory, and the reads are in one directory.
+Both assemblies an reads should follow the format below and have a sample ID as an identifier as seen below.
 ```
 assemblies/
-|-assembly.hap1.fasta
-|-assembly.hap2.fasta
+|-KRM1.hap1.fasta
+|-KRM2.hap2.fasta
 
 reads/
-|-read.fastq.gz
+|-KRM.fastq.gz
 ```
 ## Running the pipeline
 Create a bash script and add the following:
