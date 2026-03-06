@@ -29,4 +29,4 @@ nextflow run main.nf -profile slurm
 
 ```
 ## Notes
-
+Need to add Flagger in this pipeline as well as NucFlag to search for missassemblies
